@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5efb2ea2-cc79-4b5a-b1cb-d502b1b8d4c7" name="Changes" comment="" />
+    <list default="true" id="5efb2ea2-cc79-4b5a-b1cb-d502b1b8d4c7" name="Changes" comment="Jarvis-set up of the music player">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Music.py" beforeDir="false" afterPath="$PROJECT_DIR$/Music.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpeechToText.py" beforeDir="false" afterPath="$PROJECT_DIR$/SpeechToText.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,7 +47,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
-  <component name="RunManager" selected="Python.Music">
+  <component name="RunManager" selected="Python.SpeechToText">
     <configuration name="Music" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Jarvis" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -109,8 +113,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Music" />
         <item itemvalue="Python.SpeechToText" />
+        <item itemvalue="Python.Music" />
         <item itemvalue="Python.TextToSpeech" />
       </list>
     </recent_temporary>
@@ -124,6 +128,21 @@
       <option name="presentableId" value="Default" />
       <updated>1628236021435</updated>
     </task>
+    <task id="LOCAL-00001" summary="Jarvis-set up of the music player">
+      <created>1628289543162</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1628289543162</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Jarvis-set up of the music player">
+      <created>1628289673638</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1628289673638</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -136,5 +155,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Jarvis-set up of the music player" />
+    <option name="LAST_COMMIT_MESSAGE" value="Jarvis-set up of the music player" />
   </component>
 </project>

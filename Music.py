@@ -10,16 +10,18 @@ class music():
     #play the music
     def play(self,name):
         self.name = name
-        self.driver.get(url="https://accounts.google.com/o/oauth2/v2/auth/oauthchooseaccount?redirect_uri=https%3A%2F%2Fdevelopers.google.com%2Foauthplayground&prompt=consent&response_type=code&client_id=407408718192.apps.googleusercontent.com&scope=email&access_type=offline&flowName=GeneralOAuthFlow")
-        accountLogin = self.driver.find_element_by_xpath('//*[@id="tgnCOd"]')
-        accountLogin.click()
 
-        #self.driver.get(url="https://www.youtube.com/results?search_query=" + name)
+        #Trying to log into self google account to no avail.
+        #self.driver.get(url="https://accounts.google.com/o/oauth2/v2/auth/oauthchooseaccount?redirect_uri=https%3A%2F%2Fdevelopers.google.com%2Foauthplayground&prompt=consent&response_type=code&client_id=407408718192.apps.googleusercontent.com&scope=email&access_type=offline&flowName=GeneralOAuthFlow")
+        #accountLogin = self.driver.find_element_by_xpath('//*[@id="tgnCOd"]')
+        #accountLogin.click()
+
+        self.driver.get(url="https://www.youtube.com/results?search_query=" + name)
         #Clicking on the video title to play the video
-        #video = self.driver.find_element_by_xpath('//*[@id="title-wrapper"]')
-        #video.click()
+        video = self.driver.find_element_by_xpath('//*[@id="title-wrapper"]')
+        video.click()
 
 
 #testing the music class
-bot = music()
-bot.play("rick and morty season 1 ep 1")
+#bot = music()
+#bot.play("rick and morty season 1 ep 1")
